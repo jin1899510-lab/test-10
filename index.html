@@ -13,20 +13,27 @@
             font-family: 'Inter', sans-serif;
             background-color: #0a0a0a;
             color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        #root {
+            min-height: 100vh;
         }
     </style>
 <script type="importmap">
 {
   "imports": {
-    "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
-    "react/": "https://esm.sh/react@^19.2.4/",
     "react": "https://esm.sh/react@^19.2.4",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/"
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.38.0"
   }
 }
 </script>
 </head>
 <body>
     <div id="root"></div>
+    <!-- Vite 빌드 및 Vercel 배포를 위해 반드시 필요한 진입점 스크립트입니다 -->
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
