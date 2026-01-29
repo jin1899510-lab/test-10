@@ -1,0 +1,7 @@
+{
+  "name": "AI Studio Transformer",
+  "description": "Transform your everyday photos into professional studio-quality shots with AI-powered lighting, props, and composition.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
